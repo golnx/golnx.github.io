@@ -4,9 +4,10 @@ const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<p className={styles.creditInfo}>
-				Some rights reserved. Based on &nbsp;
+				Some rights reserved. Based on&nbsp;
 				<a
 					target="_blank"
+					rel="nofollow"
 					href="https://github.com/yashchaudhari008/minime/"
 				>
 					Minime
