@@ -7,27 +7,12 @@ const Footer = () => {
 	return (
 		<footer className={styles.footer}>
 			<p className={styles.creditInfo}>
-				Made with <FontAwesomeIcon icon={faHeart} /> by&nbsp;
-				<a target="_blank" href="https://github.com/yashchaudhari008">
-					yashchaudhari008&nbsp;
-				</a>
-				&&nbsp;
+				Some rights reserved. Based on
 				<a
 					target="_blank"
-					href="https://github.com/yashchaudhari008/minime/graphs/contributors"
+					href="https://github.com/yashchaudhari008/minime/"
 				>
-					contributors
-				</a>
-				<span className={styles.seperator}> | </span>
-			</p>
-			<p className={styles.githubContainer}>
-				<a
-					target="_blank"
-					className={styles.github}
-					href="https://github.com/yashchaudhari008/minime"
-				>
-					<FontAwesomeIcon className={styles.icon} icon={faGithub} />
-					Github Page
+					Minime
 				</a>
 			</p>
 		</footer>
